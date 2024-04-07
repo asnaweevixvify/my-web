@@ -1,0 +1,227 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 100%;
+  }
+  .heart {
+    font-size: 3em;
+    position: relative;
+    margin-right: 10px;;
+
+  }
+  
+  .heartbeat {
+    position: relative;
+    z-index: 1;
+    animation: beat 2s linear infinite;
+  }
+  
+  .heartecho {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: echo 2s linear infinite;
+  }
+  .content{
+  
+    background-color: #121212;
+    width: 100%;
+    
+  }
+  .p1{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    float: right;
+    margin-top: 250px;
+    margin-right: 300px;
+    padding-bottom: 0;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+    .p2{
+        font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        color: white;
+        font-size: 40px;
+        float: right;
+        padding-right: 450px;
+        transform: translate(0, -370%);        
+        
+}
+.plane{
+    float: right;
+    transform: translate(400%,-370%);
+    
+}
+  .img1{
+    width: 40%;
+    height:60%;
+    margin-top: 80px;
+    margin-left: 90px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px gray);
+  }
+  .h{
+    width:60%;
+    height:5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    opacity: 1;
+    margin-top: 35px;
+  }
+  .clearfix{
+    clear: both;
+  }
+  .p3{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    }
+    .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    }
+    .p4{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border:2px solid transparent;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    }
+   .but1{
+    background-color: #FF00BD;
+    border-radius: 5px;
+    m
+
+    }
+    .but2{
+    background-color: #0013FF;
+    border-radius: 5px;
+    margin-left: 10px;
+        }
+    .but3{
+    background-color: #6E77E7;
+    border-radius: 5px;
+    margin-left: 10px;
+    }
+    .skills{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .css{
+        margin-left: 20px;
+    }
+    .boot{
+        margin-left: 20px;
+    }
+    .video{
+        margin-left: 20px;
+    }
+    .edit{
+        margin-left: 20px;
+    }
+    .h5{
+        color: white;
+    }
+    
+    
+  
+  @keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    14% {
+      transform: scale(0.9);
+    }
+    21% {
+      transform: scale(1.1) skew(0.004turn)
+    }
+    28% {
+      transform: scale(1) skew(0.008turn);
+    }
+    35% {
+      transform: scale(1) skew(0)
+    }
+  }
+  
+  @keyframes echo {
+    0% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    14% {
+      opacity: 0.4;
+      transform: scale(0.8);
+    }
+    21% {
+      opacity: 0.4;
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(3);
+    }
+  }
+  @media (max-width:500px){
+    .img1{
+        width: 50%;
+        height:70%;
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        filter: drop-shadow(5px 5px 5px gray);
+      }
+      .p1{
+        font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        padding: 20px;
+        color: white;
+        font-size: 15px;
+        border: 2px solid white;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 30px;
+        width: 80%;
+        transform: translate(75%);
+        }
+      .p2{
+        display: none;
+        
+              
+            
+    }
+    .h{
+        width:60%;
+        height:5px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        opacity: 1;
+        margin-top: 0px;
+      }
+  }
+  
+  
+ 
+ 
+  
+  
